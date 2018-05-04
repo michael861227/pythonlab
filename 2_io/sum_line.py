@@ -9,9 +9,11 @@ def sum_lines():
 
         
         total = sum([float(token) for token in tokens])
-        #total = 0
-        #for i in range(0,len(tokens)):
-        #    total +=  float(tokens[i])
+        
+        '''total = 0
+        for i in range(0,len(tokens)):
+            total +=  float(tokens[i])
+        '''
         print(total)
 
        
