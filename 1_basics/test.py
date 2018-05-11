@@ -25,7 +25,7 @@ print(str1)
 print(len(str1))
 
 print(str1[2])
-print(str1[5:13]) #從第五的index到第13個index
+print(str1[5:13]) #從第五的index到第12個index
 print(str1[5:])
 print(str1[:])
 print(str1[::-1]) #字串相反印
