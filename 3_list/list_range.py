@@ -17,3 +17,4 @@ strA[0] = "Y"
 #join only apply for string pass
 print(''.join(strA))
 print(','.join(strA))
+

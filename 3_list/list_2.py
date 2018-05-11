@@ -14,7 +14,6 @@ print(num)
 num = list(range(5,0,-1))
 print(num)
 
-print()
 print(list(range(2)))
 print(list(range(2,10)))
 print(list(range(2,10,2)))
