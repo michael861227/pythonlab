@@ -13,9 +13,11 @@ def test():
         line = input()
         tokens = line.strip().split()
         #strip 會把line的空白或雜資料去掉
-        name = tokens[0]
+        ages[tokens[0]] = int(tokens[1])
+        '''name = tokens[0]
         age = int(tokens[1])
         ages[name] = age
+        '''
     print(ages)
     print()
     #print name and age
