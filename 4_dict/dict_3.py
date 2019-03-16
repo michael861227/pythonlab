@@ -8,7 +8,7 @@ def test():
         tokens = line.split()
 
         m = int(tokens[1])
-        if(birthdays.get(m)):
+        if(birthdays.get(m):
             birthdays[m] += 1
         else :
             birthdays[m] = 1
